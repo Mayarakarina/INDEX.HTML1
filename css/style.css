@@ -1,0 +1,100 @@
+/*RESET DO CSS*/
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background-color: rgb(250, 248, 248);
+    height: 200px;
+}
+
+.menu a {
+     color: rgb(226, 85, 19);
+     
+}
+
+.container-grid {
+     width: 800px;
+     height:0 auto;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 2000px;
+}
+
+.menu a {
+     color: rgb(18, 94, 161);
+     text-decoration: none;
+     text-transform: uppercase;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 25px;
+     
+}
+
+.banner {
+      height: 520px;
+      background-image: url(../img/Banner\ Black\ Ofertas\ Preços\ Baixos.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: black;
+      background-size: cover;
+}      
+
+.conteudo-banner {
+      height: 500px;
+      width: 350px;
+      
+      display:flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+}
+
+.posicionamento-banner {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 600px;
+}
+
+.conteudo-banner h1 {
+     color: white;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 70px;
+     height: 80px;
+     
+}
+
+
+.conteudo-banner p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+
+}
+
+.conteudo-banner a {
+    color: rgb(17, 17, 17);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(226, 49, 43);
+    padding: 20px;
+    border-radius: 10px;
+}
